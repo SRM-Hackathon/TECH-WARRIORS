@@ -1,0 +1,6 @@
+<root>
+  <item
+      name='android.widget.RadioGroup.OnCheckedChangeListener void onCheckedChanged(android.widget.RadioGroup, int) 1'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>

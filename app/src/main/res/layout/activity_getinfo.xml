@@ -40,45 +40,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textView3"
+        android:layout_marginTop="31dp"
         android:layout_below="@+id/editText"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="51dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Red"
-        android:id="@+id/button"
-        android:foreground="#fb0202"
-        android:layout_below="@+id/textView3"
-        android:layout_toEndOf="@+id/textView" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Orange"
-        android:id="@+id/button2"
-        android:foreground="#fd5101"
-        android:layout_alignTop="@+id/button"
-        android:layout_toEndOf="@+id/button" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Yellow"
-        android:id="@+id/button3"
-        android:layout_alignTop="@+id/button2"
-        android:layout_toEndOf="@+id/button2"
-        android:foreground="#ffdd00" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Green"
-        android:id="@+id/button4"
-        android:layout_alignTop="@+id/button3"
-        android:layout_alignParentEnd="true"
-        android:foreground="#37ff00" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="மண்:"
@@ -86,63 +50,127 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textView4"
-        android:layout_below="@+id/button"
+        android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
 
-    <ImageButton
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:id="@+id/imageButton"
-        android:src="@drawable/blacksoil"
-        android:layout_below="@+id/textView4"
-        android:layout_toEndOf="@+id/textView" />
 
-    <ImageButton
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:id="@+id/imageButton2"
-        android:src="@drawable/alluvial_soil"
-        android:layout_alignTop="@+id/imageButton"
-        android:layout_centerHorizontal="true" />
-
-    <ImageButton
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:id="@+id/imageButton3"
-        android:src="@drawable/lateritesoil"
-        android:layout_alignTop="@+id/imageButton2"
-        android:layout_alignParentEnd="true" />
-
-    <ImageButton
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:id="@+id/imageButton4"
-        android:layout_below="@+id/imageButton"
-        android:layout_toEndOf="@+id/textView"
-        android:src="@drawable/redsoil" />
-
-    <ImageButton
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:id="@+id/imageButton5"
-        android:layout_alignTop="@+id/imageButton4"
-        android:layout_alignStart="@+id/imageButton2"
-        android:src="@drawable/lateritesoil" />
-
-    <ImageButton
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:id="@+id/imageButton6"
-        android:src="@drawable/redsoil"
-        android:layout_alignTop="@+id/imageButton5"
-        android:layout_alignStart="@+id/imageButton3" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="சரி"
+        android:text="சமர்ப்பிக்கவும்"
         android:id="@+id/button5"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/radio01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/red" />
+
+        <RadioButton
+            android:id="@+id/radio02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/orange" />
+
+        <RadioButton
+            android:id="@+id/radio03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/yellow" />
+
+        <RadioButton
+            android:id="@+id/radio04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/green" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView4"
+        android:layout_toEndOf="@+id/textView"
+        android:orientation="horizontal"
+        android:layout_above="@+id/button5">
+
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/blacksoil" />
+
+        <RadioButton
+            android:id="@+id/radio22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/alluvial_soil" />
+
+        <RadioButton
+            android:id="@+id/radio33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/redsoil" />
+
+        <RadioButton
+            android:id="@+id/radio44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/lateritesoil" />
+    </RadioGroup>
 
 </RelativeLayout>
