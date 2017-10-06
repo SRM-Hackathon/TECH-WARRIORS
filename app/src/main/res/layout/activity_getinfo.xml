@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smile.profitable_farming.Getinfo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="Location" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Moisture"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:id="@+id/button"
+        android:foreground="#fb0202"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orange"
+        android:id="@+id/button2"
+        android:foreground="#fd5101"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/button2"
+        android:foreground="#ffdd00" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:foreground="#37ff00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Soil"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100"
+        android:layout_height="100"
+        android:id="@+id/imageButton"
+        android:src="@drawable/blacksoil"
+        android:layout_below="@+id/textView4"
+        android:layout_toEndOf="@+id/textView" />
+
+    <ImageButton
+        android:layout_width="100"
+        android:layout_height="100"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/alluvial_soil"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="100"
+        android:layout_height="100"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/lateritesoil"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100"
+        android:layout_height="100"
+        android:id="@+id/imageButton4"
+        android:layout_below="@+id/imageButton"
+        android:layout_toEndOf="@+id/textView"
+        android:src="@drawable/redsoil" />
+
+    <ImageButton
+        android:layout_width="100"
+        android:layout_height="100"
+        android:id="@+id/imageButton5"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton2"
+        android:src="@drawable/lateritesoil" />
+
+    <ImageButton
+        android:layout_width="100"
+        android:layout_height="100"
+        android:id="@+id/imageButton6"
+        android:src="@drawable/redsoil"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
