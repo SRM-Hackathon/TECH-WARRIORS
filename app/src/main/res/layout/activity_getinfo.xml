@@ -73,47 +73,31 @@
 
         <RadioButton
             android:id="@+id/radio01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true" />
-
-        <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
-            android:src="@drawable/red" />
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:checked="true"
+            android:foreground="#ff0000" />
 
         <RadioButton
             android:id="@+id/radio02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true" />
-
-        <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
-            android:src="@drawable/orange" />
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:checked="true"
+            android:foreground="#fe5500" />
 
         <RadioButton
             android:id="@+id/radio03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true" />
-
-        <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
-            android:src="@drawable/yellow" />
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:checked="true"
+            android:foreground="#fbff00" />
 
         <RadioButton
             android:id="@+id/radio04"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true" />
-
-        <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
-            android:src="@drawable/green" />
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:checked="true"
+            android:foreground="#26ff00" />
 
 
     </RadioGroup>
@@ -135,8 +119,8 @@
             android:checked="true" />
 
         <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="130px"
+            android:layout_height="130px"
             android:src="@drawable/blacksoil" />
 
         <RadioButton
@@ -146,8 +130,8 @@
             android:checked="true" />
 
         <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="130px"
+            android:layout_height="130px"
             android:src="@drawable/alluvial_soil" />
 
         <RadioButton
@@ -157,8 +141,8 @@
             android:checked="true" />
 
         <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="130px"
+            android:layout_height="130px"
             android:src="@drawable/redsoil" />
 
         <RadioButton
@@ -168,8 +152,8 @@
             android:checked="true" />
 
         <ImageView
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="130px"
+            android:layout_height="130px"
             android:src="@drawable/lateritesoil" />
     </RadioGroup>
 

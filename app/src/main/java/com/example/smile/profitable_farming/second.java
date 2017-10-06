@@ -10,8 +10,9 @@ public class second extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        Intent i= getIntent();
-        i.getIntExtra("crop",0);
+        Intent intent = getIntent();
+        String selectedRadioValue = intent.getStringExtra("selectedRadioValue");
+        String selectedRadioValue2 = intent.getStringExtra("selectedRadioValue2");
 
 
 
