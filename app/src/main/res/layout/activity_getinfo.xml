@@ -18,6 +18,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
+        android:text="இடம்:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -34,6 +35,7 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
+        android:text="ஈரப்பதம்:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -79,6 +81,7 @@
         android:foreground="#37ff00" />
 
     <TextView
+        android:text="மண்:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -87,48 +90,48 @@
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="150px"
+        android:layout_height="150px"
         android:id="@+id/imageButton"
         android:src="@drawable/blacksoil"
         android:layout_below="@+id/textView4"
         android:layout_toEndOf="@+id/textView" />
 
     <ImageButton
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="150px"
+        android:layout_height="150px"
         android:id="@+id/imageButton2"
         android:src="@drawable/alluvial_soil"
         android:layout_alignTop="@+id/imageButton"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="150px"
+        android:layout_height="150px"
         android:id="@+id/imageButton3"
         android:src="@drawable/lateritesoil"
         android:layout_alignTop="@+id/imageButton2"
         android:layout_alignParentEnd="true" />
 
     <ImageButton
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="150px"
+        android:layout_height="150px"
         android:id="@+id/imageButton4"
         android:layout_below="@+id/imageButton"
         android:layout_toEndOf="@+id/textView"
         android:src="@drawable/redsoil" />
 
     <ImageButton
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="150px"
+        android:layout_height="150px"
         android:id="@+id/imageButton5"
         android:layout_alignTop="@+id/imageButton4"
         android:layout_alignStart="@+id/imageButton2"
         android:src="@drawable/lateritesoil" />
 
     <ImageButton
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="150px"
+        android:layout_height="150px"
         android:id="@+id/imageButton6"
         android:src="@drawable/redsoil"
         android:layout_alignTop="@+id/imageButton5"
@@ -137,7 +140,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit"
+        android:text="சரி"
         android:id="@+id/button5"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
