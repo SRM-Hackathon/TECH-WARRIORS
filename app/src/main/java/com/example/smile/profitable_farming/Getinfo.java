@@ -1,33 +1,27 @@
 package com.example.smile.profitable_farming;
-import android.app.Activity;
+
 import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationManager;
+import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-import java.util.List;
-import java.util.Locale;
-
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.List;
+import java.util.Locale;
 
 public class Getinfo extends AppCompatActivity {
 
@@ -36,7 +30,9 @@ public class Getinfo extends AppCompatActivity {
     TextView textView;
     private static final int MY_PERMISSION_REQUEST_LOCATION =1;
 
-
+    View lay = (View) findViewById(R.id.rLayout);
+    int pic = R.drawable.two;
+    lay.setBackgroundResource(pic);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -133,5 +129,4 @@ public class Getinfo extends AppCompatActivity {
         return curCity;
     }
 }
-
 

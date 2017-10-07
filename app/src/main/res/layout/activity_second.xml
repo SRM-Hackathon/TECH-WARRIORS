@@ -18,28 +18,37 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="பயிரிடத்தக்க பயிர்கள்"
         android:id="@+id/textView7"
-        android:layout_below="@+id/textView6"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="119dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView8"
-        android:layout_marginTop="54dp"
-        android:layout_below="@+id/textView7"
+        android:layout_marginTop="136dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/textView9"
-        android:layout_below="@+id/textView8"
+        android:text="வானிலை"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView6"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="71dp" />
+        android:layout_below="@+id/textView7"
+        android:src="@drawable/image1"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="                                32°C"
+        android:id="@+id/textView8"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/textView2" />
 
 
 </RelativeLayout>
